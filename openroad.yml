@@ -3,7 +3,7 @@ platform: nangate45   # ['nangate45']
 design_name: halfAdder   
 
 verilog_files:
-  - halfAdde.v
+  - halfAdder.v
 sdc_file: constraint.sdc
 
 die_area: "0 0 100.13 100.8"
