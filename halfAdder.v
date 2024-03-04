@@ -1,8 +1,8 @@
 module halfAdder(input a,
                  input b,
+                 input wire clk,
                  output sum,
                  output carry);
-  reg clk;
   reg sumReg,carryReg;
   initial 
     begin
